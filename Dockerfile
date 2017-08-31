@@ -7,6 +7,8 @@
 # Setting the base to docker-node-unoconv
 FROM zrrrzzt/docker-node-unoconv:4.7.3
 
+RUN apt-get -y install ttf-wqy-microhei
+
 # Maintainer
 MAINTAINER Geir Gåsodden
 

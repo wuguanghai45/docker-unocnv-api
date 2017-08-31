@@ -1,0 +1,7 @@
+version: "2"
+
+services:
+  main:
+    build: .
+    ports:
+      - "4000:3000"
